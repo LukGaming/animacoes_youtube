@@ -1,3 +1,4 @@
+import 'package:animacoes_youtube/aulas/aula_01.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,11 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Scaffold(),
+      home: const Aula01(),
     );
   }
 }
