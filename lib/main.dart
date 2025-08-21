@@ -1,4 +1,5 @@
 import 'package:animacoes_youtube/aulas/aula_01.dart';
+import 'package:animacoes_youtube/aulas/aula_02.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Aula01(),
+      home: const Aula02(),
     );
   }
 }
